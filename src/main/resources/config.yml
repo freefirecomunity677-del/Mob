@@ -1,0 +1,42 @@
+# Roulette reward location. Leave selection-area.enabled false to keep players at their current location.
+selection-area:
+  enabled: false
+  world: world
+  x: 0.5
+  y: 80.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+roulette:
+  ticks: 100
+  start-interval: 2
+  end-interval: 12
+  hide-player: true
+  first-join-only: true
+power-item:
+  material: NETHER_STAR
+  lock-first-slot: true
+explosions:
+  power: 3.0
+  damage-entities: true
+  break-blocks: false
+flight:
+  duration-seconds: 8
+  horizontal-strength: 1.4
+  vertical-strength: 0.8
+abilities:
+  default-duration-seconds: 5
+  cooldown-seconds:
+    COMMON: 15
+    UNCOMMON: 20
+    RARE: 40
+    EPIC: 60
+    LEGENDARY: 60
+rarity-colors:
+  COMMON: WHITE
+  UNCOMMON: GREEN
+  RARE: BLUE
+  EPIC: LIGHT_PURPLE
+  LEGENDARY: GOLD
+# Optional overrides: mob key is an EntityType name, e.g. ENDER_DRAGON.
+mobs: {}

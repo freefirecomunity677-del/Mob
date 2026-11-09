@@ -1,0 +1,15 @@
+name: MobPowers
+version: 1.0.0
+main: com.freefirecomunity677del.mobpowers.MobPowersPlugin
+api-version: '26.1'
+author: freefirecomunity677-del
+description: Persistent mob powers, first-join roulette, cooldowns and admin tools.
+commands:
+  mobpowers:
+    description: Mob Powers menu and administration
+    usage: /mobpowers [menu|reload|give|remove|reset|info|roulette|setrarity|setcooldown]
+    aliases: [mp]
+permissions:
+  mobpowers.admin:
+    description: Use Mob Powers administration commands
+    default: op
